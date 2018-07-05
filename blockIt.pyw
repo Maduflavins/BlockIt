@@ -3,7 +3,7 @@ from datetime import datetime as dt
 # hosts_temp = "hosts"
 hosts_path = r"C:\Windows\System32\drivers\etc\hosts"
 redirect = "127.0.0.1"
-website_list=["www.website1.com", "website1.com", "www.website2.com", "website2.com"]
+website_list=["www.websiteone.com", "websiteone.com", "www.websitetwo.com", "websitetwo.com"]
 
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 20):

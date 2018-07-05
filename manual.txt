@@ -1,0 +1,19 @@
+note the only useful file here is the blockit.py file  the hosts file was used
+for development.
+
+FOR WINDOWS USERS
+we assumed you already have python installed om your machine.
+
+1. download the script
+2.change the value of website_list to the list of website you want to have control over
+3. at the first if statement for time control input the time you choose not to browse the said website(say working hours)
+s safe the file.
+Go to task scheduler => create task=>General[enter name of task]=>triggers=>new=>on a schedule[select at startup ]=>ok
+=> actions => new => Program/script[point to the location/path of blockIt.pyw] => ok=conditionals[uncheck start only if the PC is on AC ]
+=> ok =>
+
+5. restart your PC.
+
+FOR MAC AND LINUX LEADER
+
+WILL BW UPDATED SOON
